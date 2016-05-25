@@ -20,7 +20,7 @@ if(isset($_POST['username'])&& isset($_POST['password'])&& isset($_POST['email']
         }
         else
         {
-            $query ="INSERT INTO `pre_user` (`id`, `username`, `password`, `email`, `fullname`, `phone`, `mota`) VALUES (NULL , '".$_POST['username']."', '".md5($_POST['password'])."', '".$_POST['email']."', '".$_POST['fullname']."', '".$_POST['phone']."', '".$_POST['mota']."')";
+            $query ="INSERT INTO `pre_user` (`id`, `username`, `password`, `email`, `fullname`, `phone`, `mota`,`lever`) VALUES (NULL , '".$_POST['username']."', '".md5($_POST['password'])."', '".$_POST['email']."', '".$_POST['fullname']."', '".$_POST['phone']."', '".$_POST['mota']."', '1')";
         }
 
 
