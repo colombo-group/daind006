@@ -17,7 +17,7 @@
 .form ul li{
     float: left;
     text-align: center;
-    color: #ffffff;
+    color: #3b5998;
     font-size: 20px;
 }
 .input
@@ -63,4 +63,169 @@
     height: 100px;
     width: 200px;
     position:fixed;top:0;left:0;z-index:-1;
+}
+#option-h-b
+{
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+#h-b-left
+{
+    width: 394px;
+    height: 140px;
+}
+#right-plus ul{
+    list-style-type: none;
+    color: #ffffff;
+    margin-top: 50px;
+}
+#right-plus ul li
+{
+    float: left;
+    margin-left: 20px;
+    line-height: 30px;
+}
+
+#right-plus ul li a{
+    color: #3b5998;
+    text-decoration: none;
+    font-size: 25px;
+}
+#h-t-left ul{
+    list-style-type: none;
+    color: #ffffff;
+    margin-top: 0px;
+    height: 80px;
+    width:auto;
+    margin: 0 auto;
+    padding: 0px;
+}
+#h-t-left ul li
+{
+    float: left;
+    margin-left: 20px;
+}
+
+#h-t-left ul li a{
+    color: #3b5998;
+    text-decoration: none;
+}
+#h-t-right ul{
+    list-style-type: none;
+}
+#h-t-right ul li{
+    float: left;
+    margin-left: 15px;
+}
+#h-t-right
+{
+    float: right;
+    margin-top: 15px;
+}
+#h-t-right ul li a
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+}
+#h-t-left
+{
+    float: left;
+}
+.b-title ul
+{
+    margin: 0 auto;
+    list-style-type: none;
+}
+.b-title ul li
+{
+    float: left;
+}
+.b-title ul li div
+{
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    margin-top: 10px;
+}
+.b-title ul li div a
+{
+    text-decoration: none;
+    font-size: 17px;
+    color: #ffffff;
+    text-align: center;
+
+}
+.b-title
+{
+    height: 50px;
+    width: 480px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px ;
+    background-color: #3b5998;
+}
+.b-t-left
+{
+    background-color: gainsboro;
+    height: auto;
+    width: 870px;
+    float: left;
+}
+.b-t-right
+{
+    height: 400px;
+    width: 250px;
+    float: right;
+    margin-right: 25px;
+}
+#body-l
+{
+    height: 500px;
+    width: 480px;
+    float: left;
+}
+.e-top
+{
+    background-color: #ffffff;
+    width: 100%;
+    height: 50px;
+}
+.e-body
+{
+    background-color: crimson;
+    height: 10px;
+    width: 100%;
+}
+.e-bottom
+{
+    background-color: #3b5998;
+    height: 300px;
+    width: 100%;
+}
+#body-a
+{
+    height: 600px;
+    width: 100%;
+}
+.all
+{
+    width: 480px;
+}
+#body-r {
+    background-image: url("img/bg.png");
+    background-repeat: no-repeat;
+    border: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 20pt;
+    color: #3b5998;
+    padding-top: 103px;
+    margin-right: 45px;
+    margin-top: 90px;
+}
+.option-profile
+{
+
 }
